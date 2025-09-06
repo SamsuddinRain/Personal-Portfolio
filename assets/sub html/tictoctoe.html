@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game - Project Details</title>
+    <link rel="stylesheet" href="../main css,scss/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .project-details {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: var(--container-color);
+            border-radius: 1rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .project-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .project-title {
+            font-size: 2.5rem;
+            color: var(--first-color);
+            margin-bottom: 1rem;
+        }
+        
+        .project-description {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+        }
+        
+        .tech-stack {
+            margin-bottom: 2rem;
+        }
+        
+        .tech-stack h3 {
+            color: var(--first-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .tech-list {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .tech-item {
+            background: var(--first-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.9rem;
+        }
+        
+        .features {
+            margin-bottom: 2rem;
+        }
+        
+        .features h3 {
+            color: var(--first-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .features li {
+            padding: 0.5rem 0;
+            color: var(--text-color);
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .features li:before {
+            content: "✓";
+            color: var(--first-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .future-improvements {
+            margin-bottom: 2rem;
+        }
+        
+        .future-improvements h3 {
+            color: var(--first-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .future-improvements ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .future-improvements li {
+            padding: 0.5rem 0;
+            color: var(--text-color);
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .future-improvements li:before {
+            content: "→";
+            color: var(--first-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: var(--first-color);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background: #22c55e;
+            transform: translateY(-2px);
+        }
+        
+        .project-image {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .project-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 1rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="project-details">
+        <div class="project-header">
+            <h1 class="project-title">Tic Tac Toe Game</h1>
+        </div>
+        
+        <div class="project-image">
+            <img src="../img/tictoctoe.png" alt="Tic Tac Toe Game">
+        </div>
+        
+        <div class="project-description">
+            A fun and interactive Tic Tac Toe game implemented using HTML, CSS, and JavaScript. This project demonstrates the use of front-end web technologies to create an engaging 3x3 grid game where two players can compete. It highlights DOM manipulation, event handling, and dynamic styling for real-time gameplay updates.
+        </div>
+        
+        <div class="tech-stack">
+            <h3>Tech Stack</h3>
+            <div class="tech-list">
+                <span class="tech-item">HTML</span>
+                <span class="tech-item">CSS</span>
+                <span class="tech-item">JavaScript</span>
+            </div>
+        </div>
+        
+        <div class="features">
+            <h3>Features</h3>
+            <ul>
+                <li>Two-player Gameplay</li>
+                <li>Real-time Board Updates</li>
+                <li>Win and Draw Detection</li>
+                <li>Game Reset Option</li>
+                <li>Responsive UI</li>
+            </ul>
+        </div>
+        
+        <div class="future-improvements">
+            <h3>Future Improvements</h3>
+            <ul>
+                <li>Single Player Mode with AI Opponent</li>
+                <li>Score Tracking System</li>
+                <li>Animated Transitions</li>
+                <li>Sound Effects Integration</li>
+                <li>Online Multiplayer Support</li>
+            </ul>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="../../index.html" class="back-button">
+                <i class='bx bx-arrow-back'></i> Back to Portfolio
+            </a>
+        </div>
+    </div>
+</body>
+</html>

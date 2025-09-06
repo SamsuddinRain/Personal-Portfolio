@@ -111,27 +111,3 @@ window.onclick = function(event) {
 }
 
 
-document.querySelector('.contact__button').addEventListener('click', async () => {
-    const name = document.querySelector('input[placeholder="Name"]').value;
-    const email = document.querySelector('input[placeholder="Email"]').value;
-    const message = document.querySelector('textarea[placeholder="write massege"]').value;
-
-    try {
-        const response = await fetch('http://localhost:3000/submit-form', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ name, email, message }),
-        });
-
-        if (response.ok) {
-            alert('Message sent successfully');
-        } else {
-            alert('Failed to send message. Please try again.');
-        }
-    } catch (error) {
-        console.error('Error:', error);
-        alert('An error occurred. Please try again later.');
-    }
-});
