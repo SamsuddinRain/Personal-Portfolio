@@ -641,7 +641,7 @@ img {
     position: relative;
     right: auto;
     bottom: auto;
-    width: 350px;
+    width: 320px;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -650,12 +650,12 @@ img {
   }
   
   .home__blob {
-    width: 350px;
+    width: 320px;
     height: auto;
   }
   
   .home__blob-img {
-    width: 350px;
+    width: 320px;
     height: auto;
   }
   
@@ -768,15 +768,15 @@ img {
   }
   
   .home__img {
-    width: 380px;
+    width: 350px;
   }
   
   .home__blob {
-    width: 380px;
+    width: 350px;
   }
   
   .home__blob-img {
-    width: 380px;
+    width: 350px;
     height: auto;
   }
   
